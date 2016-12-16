@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Awesome</title>
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js"></script>
+</head>
+<body onLoad="document.registration.userid.focus();">
+<h1> Analysis Registration Form</h1>
+<form name='registration' onSubmit="return withValidation();">
+<ul>
+<li><label for="userid">Username: *</label></li>
+<li><input type="text" name="userid" id="userid" /></li>
+<li><label for="passid">Password: *</label></li>
+<li><input type="password" name="passid" id="passid" /></li>
+<li><label for="username">Name: *</label></li>
+<li><input type="text" name="username" id="username"/></li>
+<li><label for="address">Address: *</label></li>
+<li><input type="text" name="address" id="address"/></li>
+<li><label for="zip">ZIP Code: *</label></li>
+<li><input type="text" name="zip" id="zip" /></li>
+<li><label for="email">Email: *</label></li>
+<li><input type="text" name="email" id="email" /></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en"><head>-->
+<!--<meta charset="utf-8">-->
+<!--<title>Awesome</title>-->
+<!--<link rel='stylesheet' href='js-form-validation.css' type='text/css' />-->
+<!--<script src="sample-registration-form-validation.js"></script>-->
+<!--</head>-->
+<!--<body onLoad="document.registration.userid.focus();">-->
+<!--<h1> Analysis Registration Form</h1>-->
+<!--<form name='registration' onSubmit="return formCheck();">-->
+        <!--<div class="ss-item-required">-->
+            <!--<label>What is your name?</label>-->
+            <!--<input type="text" name="name" id="name"></input>-->
+        <!--</div>-->
+
+        <!--<div class="ss-item-not-required">-->
+            <!--<label>What is your email?</label>-->
+            <!--<input type="text" name="email" id="email"></input>-->
+        <!--</div>-->
+    <!--<a href="#" onclick="formcheck(); return false">Submit</a>-->
+    <!--</form>-->
